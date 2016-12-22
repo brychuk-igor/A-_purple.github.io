@@ -1,0 +1,607 @@
+body {
+   /* min-width:1040px;*/
+  font-family:"Trebuchet MS";
+    font-weight:bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+
+  /*  Пример подключения изображения из папки  img */
+  /*background-image: url("../img/bg-promo.png");
+  background-repeat: no-repeat;
+  background-position: center top;*/
+    background-image:url("../img/A-Plus-Redesign-Index.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin:0;
+    padding:0;
+}
+
+/*--ХЕДЕР--*/
+.main-header{
+    padding-top:35px;
+    padding-bottom:80px;
+    background-color:#6451d5;
+}
+
+.container {
+    width: 1020px;
+    margin:0 auto;
+    padding:0 30px;
+    
+}
+
+.header-top{
+    margin-bottom:93px;
+    height: 82px;
+    
+    
+}
+
+.header-top::after{
+    display:table;
+    content:"";
+    clear:both;
+}
+
+.logo{
+    float: left;
+    width:182px;
+    min-height: 60px; 
+    
+}
+
+.main-menu{
+    margin-top:24px;
+    float: right;
+    width:680px;
+    min-height: 25px; 
+    
+}
+
+.main-menu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    
+}
+
+.main-menu li{
+    display:inline-block;
+    margin-left:9px;
+    margin-top:0;
+    vertical-align:top;
+    font-size:18px;
+    line-height: 25px;
+    margin-right: 41px;
+    
+}
+
+.main-menu li:nth-child(3){
+    margin-right:42px;
+}
+
+.main-menu li:last-child{
+    margin-right:0;
+}
+
+.main-menu a{
+    margin-top:0px;
+    font-family: "Trebuchet MS";
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+    
+}
+
+.main-menu a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+.main-menu a:active{
+    text-decoration:none;
+    color:#9d93e2;
+    opacity:0.3;
+}
+
+.promo{
+    width:450px;
+    height: 395px;
+    position:relative;
+    z-index:10;
+    width:450px;
+}
+
+.promo-title{
+    min-height:145px;
+    width:450px;
+    font-size:45px;
+    line-height:50px;
+    font-family: "Trebuchet MS";
+    color:#ffffff;
+    margin-bottom:35px;
+    font-stretch: ultra-expanded;
+    font-weight:bold;
+}
+
+.promo p{
+    margin-top:7px;
+    font-size:18px;
+    width:360px;
+    color:#bcb3f2;
+    line-height:30px;
+    font-weight:200;
+    margin-bottom: 50px;
+    font-family: "Tahoma";
+    
+    /*margin:0;*/
+}
+
+.btn{
+    display:inline-block;
+    padding:23px;
+    font-size:20px;
+    vertical-align: top;
+    text-align:center;
+    text-decoration:none;
+    text-transform: uppercase;
+    background:#382d78;
+    outline:none;
+    border:none;
+    color:#ffffff;
+    font-family: "Trebuchet MS";
+}
+
+.btn-violent{
+    background:#382d78;    
+}
+
+.btn-violent:hover{
+    background:#32286c;
+}
+
+.btn-violent:active{
+    background:#32286c;
+    color:#8581a1;
+}
+
+.promo .btn{
+    width:274px;
+}
+
+.promo::after{
+    content:"";
+    position:absolute;
+    width:653px;
+    height: 451px;
+    background-image:url("../img/bg-promo-1.png");
+    background-repeat:no-repeat;
+    top:-20px;
+    left:380px;
+    z-index:-1;
+}
+
+
+
+/*--ПРЕИМУЩЕСТВА--*/
+.features{
+    padding-top:50px;
+    padding-bottom:45px;
+    background:#efefef;
+}
+
+.features-item{
+    float:left;
+    margin-right:30px;
+    height:187px;
+    width:320px; 
+    position:relative;
+    
+}
+
+.features-icon{
+    width:80px;
+    height:80px;
+    
+    position:absolute;
+    left:120px;
+    background-image:url("../img/sprite.png");
+    background-repeat:no-repeat;
+    
+}
+
+.features-icon-schedule{
+    background-position: 12px -3px;
+}
+
+.features-icon-practice{
+    background-position:-70px 0px;
+}
+
+.features-icon-work{
+    background-position:-154px -2px;
+}
+
+
+.features-item p{
+    text-align: center;
+    font-size:18px;
+    font-family: "Tahoma";
+    font-weight:normal;
+    color:#555555;
+}
+
+.features-item:last-child{
+    margin-right:0px;
+}
+
+.features .container::after{
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.features-title{
+    text-align:center;
+    margin-top:90px;
+    font-family: "Trebuchet MS";
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+/*ФОРМЫ ОБУЧЕНИЯ*/
+
+.education-forms{
+    padding-top:13px;
+    padding-bottom:70px;
+    background:#ffffff;
+    
+}
+
+.education-forms .container::after{
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.education-forms-title{
+    height:50px;   
+    margin-bottom:60px;
+    font-size:45px;
+    line-height: 50px;
+}
+
+.education-forms-table{
+    min-height:278px;
+    min-width:1020px;
+    border-collapse: collapse;
+    border:2px solid ;
+    border-color: #a7a7a7;
+    width:100%;
+    
+}
+
+.education-forms-table-thead .first-row td{
+    background-color:#efefef;
+    border:2px solid #a7a7a7;
+    font-size: 18px;
+    font-family: "Tahoma";
+    color:#404040;
+    font-weight:normal;
+    text-align: left;
+    vertical-align: middle;
+    padding-left:30px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    padding-right: 40px;
+}
+
+.education-forms-table-tbody{
+    
+}
+
+.education-forms-table-tbody .column{
+    border:2px solid #a7a7a7;
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight:900;
+    font-family: "Trebuchet MS";
+    vertical-align: super;
+    padding:0;
+    color: #000000;
+    padding-left:30px;
+    padding-top:22px;
+    padding-right: 44px;
+    padding-bottom: 54px;
+}
+
+.education-forms-table-tbody .column-2{
+    border:2px solid #a7a7a7;
+    white-space: nowrap;
+    font-size: 22px;
+    /*font-weight:bold;*/
+    font-family: "Trebuchet MS";
+    vertical-align: super;
+    padding:0;
+    color: #000000;
+    padding-left:30px;
+    padding-top:22px;
+    padding-right: 92px;
+    padding-bottom: 54px;
+}
+
+.education-forms-table-tbody .column-3{
+    border:2px solid #a7a7a7;
+    padding:0;
+    font-size: 18px;
+    font-family: "Tahoma";
+    color:#404040;
+    font-weight:normal;
+    text-align: left;
+    vertical-align: middle;
+    padding-left:30px;
+    line-height: 30px;
+    padding-right:25px;
+}
+
+
+
+/*ОБРАТНАЯ СВЯЗЬ*/
+.contacts{
+    padding-top:13px;
+    padding-bottom:60px;
+    background:#efefef;
+    
+}
+
+.contacts .container::after{
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.contacts-title{
+    height:50px;  
+    margin-bottom:60px;
+    font-size:45px;
+    font-weight:bold;
+    line-height: 50px;
+    
+}
+
+.contacts-form{
+    float:left;
+    width:640px;
+    height:369px;
+    
+}
+
+.contacts-form .title{
+    text-align: right;
+    width:50px;
+    font-size:18px;
+    color:#000000;
+    font-family: "Trebuchet MS";
+    font-weight:bold;
+    vertical-align: top;
+    /*padding-top:20px;*/
+}
+
+.contacts-form .fio{
+    padding-top:20px;
+    padding-right:5px;
+}
+
+.contacts-form .sex{
+    padding-right:5px;
+}
+
+.contacts-form .additional-text{
+    padding-top:20px;
+    padding-right:5px;
+}
+
+.contacts-form .field{
+    width:515px;
+    vertical-align:top;
+    padding-bottom: 30px;
+    padding-left:4px;
+}
+
+.contacts-form .radio{
+    padding-top:2px; 
+    padding-left:25px;
+    
+}
+
+.contacts-form .radio label{
+    margin-right:30px;
+    vertical-align:top;
+    font-size:18px;
+    font-family: "Tahoma";
+    color:#404040;
+    font-weight:normal;
+    vertical-align:top;
+    line-height: normal;
+}
+
+.contacts-form input[type="radio"]{
+    
+    
+    width:16px;
+    height:16px;
+    border:none;
+    outline:none;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+
+
+.contacts-form input[type="text"],
+.contacts-form textarea{
+    -webkit-box-sizing:border-box;
+    -mox-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    padding:14px 25px;
+    font-size:18px;
+    line-height: 26px;
+    font-family: "Tahoma";
+    font-weight:400;
+    color: #404040;
+    outline:none;
+    border: 2px solid #a7a7a7;
+    border-radius:2px;
+}
+
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover{
+    border: 2px solid #7f7f7f;
+}
+
+.contacts-form input[type="text"]:focus,
+.contacts-form textarea:focus{
+    border: 2px solid #6451d5;
+}
+
+.contacts-form textarea{
+    min-height: 105px;
+    resize:none;
+}
+
+.contacts-form .btn{
+    width:100%;
+}
+
+.contacts-form .btn:hover{
+    background-color: #32286c;
+}
+
+.contacts-form .btn:active{
+    color: #706998;
+}
+
+.instruction{
+    float:right;
+    width:320px;
+    height:348px; 
+    
+    padding-top:0;
+}
+
+.instruction h3{
+    font-size:22px;
+    font-family:"Trebuchet MS";
+    line-height: 30px;
+    color:#000000;
+    margin:0px;
+    margin-bottom:25px;
+}
+
+.instruction p{
+    font-size:18px;
+    font-family:"Tahoma";
+    font-weight:normal;
+    margin-bottom:25px; 
+    color:#555555;
+}
+
+.instruction .contacts-alert{
+    margin-top:40px;
+    width:300px;
+}
+
+.instruction strong{
+    color:#000000;  
+}
+
+/*--ФУТУР--*/
+.main-footer{
+    padding-top:65px;
+    padding-bottom:75px;
+    background: #2a2546;
+}
+
+.footer::after{
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.footer-address{
+    float:left;
+    width: 300px;
+    height:208px;
+    margin-right:40px;
+}
+
+.footer-address p{
+    width:250px;
+    margin-top:72px;
+    font-size:18px;
+    font-family: "Tahoma";
+    font-weight:normal;
+    color:#ffffff;
+}
+
+.footer-menu{
+    float:left;
+    width:180px;
+    margin-top:25px;
+    height: 209px; 
+    margin-bottom:0;
+    list-style: none;
+    
+}
+
+.footer-menu:last-child{
+    float:right;
+    width:135px;
+}
+
+.footer-menu h3{
+    margin-top:0px;
+    margin-bottom: 35px;
+    font-size:18px;
+    font-weight:bolder;
+    color:#ffffff;
+    font-family: "Tahoma";
+}
+
+.footer-menu ul{
+    text-align:left;
+    list-style: none;
+    padding-left:0;
+    
+}
+
+.footer-menu ul li{
+    margin-bottom:25px;
+}
+
+.footer-menu ul a{
+    text-decoration:none; 
+    color:#a39ebe;
+    font-size:18px;
+    font-weight:normal;
+    font-family: "Tahoma";
+    
+}
+
+.footer-menu ul a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+.footer-menu ul a:active{
+    color:#4f4a6a;
+}
+
+
+
+
+
+
